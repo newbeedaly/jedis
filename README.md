@@ -63,6 +63,7 @@
 	/etc/init.d/redis-server stop
 	/etc/init.d/redis-server start
 	/etc/init.d/redis-server restart
+	service redis restart
 	kill -9 进程号(不是端口号)
 
 ### 五. redis数据结构
